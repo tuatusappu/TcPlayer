@@ -406,7 +406,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "@TcPlayerBot"
+        user.first_name =  "LovelyMusic"
     usar = user
     wew = usar.id
     try:
@@ -427,7 +427,7 @@ async def play(_, message: Message):
                               await USER.join_chat(invitelink)
                               await USER.send_message(message.chat.id,"😉 I Jᴏɪɴᴇᴅ Tʜɪꜱ Gʀᴏᴜᴘ Fᴏʀ Pʟᴀʏɪɴɢ Mᴜꜱɪᴄ Iɴ Vᴄ")
                               await lel.edit(
-                                  "<b>@TcPlayerBot Uꜱᴇʀʙᴏᴛ Jᴏɪɴᴇᴅ Yᴏᴜʀ Cʜᴀᴛ</b>",
+                                  "<b>@Lovelyvcbot Uꜱᴇʀʙᴏᴛ Jᴏɪɴᴇᴅ Yᴏᴜʀ Cʜᴀᴛ</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -436,7 +436,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Fʟᴏᴏᴅ Wᴀɪᴛ Eʀʀᴏʀ 🔴 \nUser {user.first_name} Cᴏᴜʟᴅɴ'ᴛ Jᴏɪɴ Yᴏᴜʀ Gʀᴏᴜᴘ Dᴜᴇ Tᴏ Hᴇᴀᴠʏ RᴇQᴜᴇꜱᴛꜱ Fᴏʀ Uꜱᴇʀʙᴏᴛ! mᴀᴋᴇ Sᴜʀᴇ Uꜱᴇʀ Iꜱ Nᴏᴛ Bᴀɴɴᴇᴅ Iɴ Gʀᴏᴜᴘ."
-                                  "\n\nOʀ Mᴀɴᴜᴀʟʟʏ Aᴅᴅ @TcPlayerBot Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Tʀʏ Aɢᴀɪɴ</b>",
+                                  "\n\nOʀ Mᴀɴᴜᴀʟʟʏ Aᴅᴅ @Lovelyvcbot Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Tʀʏ Aɢᴀɪɴ</b>",
                               )
                               pass
     try:
@@ -444,7 +444,7 @@ async def play(_, message: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> @TcPlayerBot Uꜱᴇʀʙᴏᴛ Nᴏᴛ Iɴ Tʜɪꜱ Cʜᴀᴛ, Aꜱᴋ Aᴅᴍɪɴ Tᴏ Sᴇɴᴅ /play Cᴏᴍᴍᴀɴᴅ Fᴏʀ Fɪʀꜱᴛ Tɪᴍᴇ Oʀ Aᴅᴅ Aꜱꜱɪꜱᴛᴀɴᴛ Mᴀɴᴜᴀʟʟʏ.</i>"
+            f"<i> @Lovelyvcbot Uꜱᴇʀʙᴏᴛ Nᴏᴛ Iɴ Tʜɪꜱ Cʜᴀᴛ, Aꜱᴋ Aᴅᴍɪɴ Tᴏ Sᴇɴᴅ /play Cᴏᴍᴍᴀɴᴅ Fᴏʀ Fɪʀꜱᴛ Tɪᴍᴇ Oʀ Aᴅᴅ Aꜱꜱɪꜱᴛᴀɴᴛ Mᴀɴᴜᴀʟʟʏ.</i>"
         )
         return     
     sender_id = message.from_user.id
@@ -554,7 +554,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "TcPlayerBot"
+        user.first_name =  "LovelyMusic"
     usar = user
     wew = usar.id
     try:
@@ -575,7 +575,7 @@ async def deezer(client: Client, message_: Message):
                               await USER.join_chat(invitelink)
                               await USER.send_message(message_.chat.id,"I Jᴏɪɴᴇᴅ Tʜɪꜱ Gʀᴏᴜᴘ Fᴏʀ Pʟᴀʏɪɴɢ Mᴜꜱɪᴄ Iɴ VC")
                               await lel.edit(
-                                  "<b>@TcPlayer Uꜱᴇʀʙᴏᴛ Jᴏɪɴᴇᴅ Yᴏᴜʀ Cʜᴀᴛ</b>",
+                                  "<b>@Lovelyvcbot Uꜱᴇʀʙᴏᴛ Jᴏɪɴᴇᴅ Yᴏᴜʀ Cʜᴀᴛ</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -584,7 +584,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Fʟᴏᴏᴅ Wᴀɪᴛ Eʀʀᴏʀ 🔴 \nUser {user.first_name} Cᴏᴜʟᴅɴ'ᴛ Jᴏɪɴ Yᴏᴜʀ Gʀᴏᴜᴘ Dᴜᴇ Tᴏ Hᴇᴀᴠʏ RᴇQᴜᴇꜱᴛꜱ Fᴏʀ Uꜱᴇʀʙᴏᴛ! mᴀᴋᴇ Sᴜʀᴇ Uꜱᴇʀ Iꜱ Nᴏᴛ Bᴀɴɴᴇᴅ Iɴ Gʀᴏᴜᴘ."
-                                  "\n\n@TcPlayerBot Uꜱᴇʀʙᴏᴛ Nᴏᴛ Iɴ Tʜɪꜱ Cʜᴀᴛ, Aꜱᴋ Aᴅᴍɪɴ Tᴏ Sᴇɴᴅ /play Cᴏᴍᴍᴀɴᴅ Fᴏʀ Fɪʀꜱᴛ Tɪᴍᴇ Oʀ Aᴅᴅ Aꜱꜱɪꜱᴛᴀɴᴛ Mᴀɴᴜᴀʟʟʏ.</b>",
+                                  "\n\n@Lovelyvcbot Uꜱᴇʀʙᴏᴛ Nᴏᴛ Iɴ Tʜɪꜱ Cʜᴀᴛ, Aꜱᴋ Aᴅᴍɪɴ Tᴏ Sᴇɴᴅ /play Cᴏᴍᴍᴀɴᴅ Fᴏʀ Fɪʀꜱᴛ Tɪᴍᴇ Oʀ Aᴅᴅ Aꜱꜱɪꜱᴛᴀɴᴛ Mᴀɴᴜᴀʟʟʏ.</b>",
                               )
                               pass
     try:
@@ -592,7 +592,7 @@ async def deezer(client: Client, message_: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i>Lᴏᴏᴋꜱ Lɪᴋᴇ @TcPlayerBot Uꜱᴇʀʙᴏᴛ Nᴏᴛ Iɴ Tʜɪꜱ Cʜᴀᴛ, Aꜱᴋ Aᴅᴍɪɴ Tᴏ Sᴇɴᴅ /play Cᴏᴍᴍᴀɴᴅ Fᴏʀ Fɪʀꜱᴛ Tɪᴍᴇ Oʀ Aᴅᴅ Aꜱꜱɪꜱᴛᴀɴᴛ Mᴀɴᴜᴀʟʟʏ.</i>"
+            f"<i>Lᴏᴏᴋꜱ Lɪᴋᴇ @Lovelyvcbot Uꜱᴇʀʙᴏᴛ Nᴏᴛ Iɴ Tʜɪꜱ Cʜᴀᴛ, Aꜱᴋ Aᴅᴍɪɴ Tᴏ Sᴇɴᴅ /play Cᴏᴍᴍᴀɴᴅ Fᴏʀ Fɪʀꜱᴛ Tɪᴍᴇ Oʀ Aᴅᴅ Aꜱꜱɪꜱᴛᴀɴᴛ Mᴀɴᴜᴀʟʟʏ.</i>"
         )
         return                            
     requested_by = message_.from_user.first_name   
@@ -684,7 +684,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "TcPlayerBot"
+        user.first_name =  "LovelyMusic"
     usar = user
     wew = usar.id
     try:
@@ -705,7 +705,7 @@ async def jiosaavn(client: Client, message_: Message):
                               await USER.join_chat(invitelink)
                               await USER.send_message(message_.chat.id,"I Jᴏɪɴᴇᴅ Tʜɪꜱ Gʀᴏᴜᴘ Fᴏʀ Pʟᴀʏɪɴɢ Mᴜꜱɪᴄ Iɴ VC")
                               await lel.edit(
-                                  "<b>@TcPlayer Hᴇʟᴘᴇʀ Uꜱᴇʀʙᴏᴛ Jᴏɪɴᴇᴅ Yᴏᴜʀ Cʜᴀᴛ</b>",
+                                  "<b>@Lovelyvcbot Hᴇʟᴘᴇʀ Uꜱᴇʀʙᴏᴛ Jᴏɪɴᴇᴅ Yᴏᴜʀ Cʜᴀᴛ</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -714,7 +714,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Fʟᴏᴏᴅ Wᴀɪᴛ Eʀʀᴏʀ 🔴 \nUser {user.first_name} Cᴏᴜʟᴅɴ'ᴛ Jᴏɪɴ Yᴏᴜʀ Gʀᴏᴜᴘ Dᴜᴇ Tᴏ Hᴇᴀᴠʏ RᴇQᴜᴇꜱᴛꜱ Fᴏʀ Uꜱᴇʀʙᴏᴛ! mᴀᴋᴇ Sᴜʀᴇ Uꜱᴇʀ Iꜱ Nᴏᴛ Bᴀɴɴᴇᴅ Iɴ Gʀᴏᴜᴘ."
-                                  "\n\nOʀ Mᴀɴᴜᴀʟʟʏ Aᴅᴅ @TcPlayerBot Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Tʀʏ Aɢᴀɪɴ</b>",
+                                  "\n\nOʀ Mᴀɴᴜᴀʟʟʏ Aᴅᴅ @Lovelyvcbot Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Tʀʏ Aɢᴀɪɴ</b>",
                               )
                               pass
     try:
